@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2685d23-15ec-4b3a-a5d2-3b81e3cb90e2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/.idea/.rakeTasks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/.idea/todo.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/CODE_OF_CONDUCT.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/bin/setup" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/bin/todo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/exe/todo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/lib/todo.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/lib/todo/command.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/lib/todo/command/options.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/lib/todo/db.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/lib/todo/task.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/lib/todo/version.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo-1.3.0/todo.gemspec" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/todo/version.rb" afterPath="$PROJECT_DIR$/lib/todo/version.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +17,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="todo" pinned="false" current-in-tab="true">
+      <file leaf-file-name="todo.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/todo.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/todo/version.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exe/todo">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -86,10 +85,10 @@
         <option value="$PROJECT_DIR$/todo-1.0.0/lib/todo.rb" />
         <option value="$PROJECT_DIR$/lib/todo.rb" />
         <option value="$PROJECT_DIR$/bin/console" />
-        <option value="$PROJECT_DIR$/lib/todo/version.rb" />
         <option value="$PROJECT_DIR$/todo.gemspec" />
         <option value="$PROJECT_DIR$/lib/todo/command/options.rb" />
         <option value="$PROJECT_DIR$/exe/todo" />
+        <option value="$PROJECT_DIR$/lib/todo/version.rb" />
       </list>
     </option>
   </component>
@@ -127,6 +126,38 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="todo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="todo" />
@@ -323,18 +354,18 @@
       <updated>1489393601133</updated>
       <workItem from="1489393605152" duration="7377000" />
       <workItem from="1490533917060" duration="3994000" />
-      <workItem from="1491039733293" duration="15933000" />
+      <workItem from="1491039733293" duration="15951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27304000" />
+    <option name="totallyTimeSpent" value="27322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1961" y="0" width="1399" height="1080" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1922802" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1922802" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -610,14 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/todo/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todo-1.3.0/todo.gemspec">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -642,14 +665,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/todo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,6 +728,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/todo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/todo/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
