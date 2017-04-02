@@ -4,22 +4,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="todo (v1.2.0) [path][gem]">
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/todo-1.2.0/bin" />
-          <root url="file://$MODULE_DIR$/todo-1.2.0/exe" />
-          <root url="file://$MODULE_DIR$/todo-1.2.0/lib" />
-          <root url="file://$MODULE_DIR$/todo-1.2.0/.idea" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/todo-1.2.0/bin" />
-          <root url="file://$MODULE_DIR$/todo-1.2.0/exe" />
-          <root url="file://$MODULE_DIR$/todo-1.2.0/lib" />
-          <root url="file://$MODULE_DIR$/todo-1.2.0/.idea" />
-        </SOURCES>
-      </library>
-    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v3.2.22.5, rbenv: 2.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v3.2.22.5, rbenv: 2.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.2.22.5, rbenv: 2.2.2) [gem]" level="application" />
