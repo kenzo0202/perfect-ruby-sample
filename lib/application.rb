@@ -44,11 +44,11 @@ module Todo
       if (@status = params[:status])
         case @status
         when 'not_yet'
-          @tasks = @tasks.status_is_not_yet
+          @tasks = Task.order('created_at DESC').status_is_not_yet
         when 'done'
-          @tasks = @tasks.status_is_done
+          @tasks = Task.order('created_at DESC').status_is_done
         when 'pending'
-          @tasks = @tasks.status_is_pending
+          @tasks = Task.order('created_at DESC').status_is_pending
         else
           @status = nil
         end

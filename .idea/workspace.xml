@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2685d23-15ec-4b3a-a5d2-3b81e3cb90e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/views/_errors.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/views/_form.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/views/edit.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/views/layout.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/views/new.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/views/not_found.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/application.rb" afterPath="$PROJECT_DIR$/lib/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/todo/command.rb" afterPath="$PROJECT_DIR$/lib/todo/command.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/todo/command/options.rb" afterPath="$PROJECT_DIR$/lib/todo/command/options.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/todo/version.rb" afterPath="$PROJECT_DIR$/lib/todo/version.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/index.haml" afterPath="$PROJECT_DIR$/lib/views/index.haml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="881">
-              <caret line="118" column="7" lean-forward="false" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
+            <state relative-caret-position="326">
+              <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -42,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/lib/views/not_found.haml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -78,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="version.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/todo/version.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -137,11 +126,11 @@
         <option value="$PROJECT_DIR$/lib/views/new.haml" />
         <option value="$PROJECT_DIR$/lib/views/_form.haml" />
         <option value="$PROJECT_DIR$/lib/views/index.haml" />
-        <option value="$PROJECT_DIR$/lib/application.rb" />
         <option value="$PROJECT_DIR$/lib/views/not_found.haml" />
         <option value="$PROJECT_DIR$/lib/todo/command.rb" />
         <option value="$PROJECT_DIR$/lib/todo/command/options.rb" />
         <option value="$PROJECT_DIR$/lib/todo/version.rb" />
+        <option value="$PROJECT_DIR$/lib/application.rb" />
       </list>
     </option>
   </component>
@@ -421,18 +410,18 @@
       <updated>1489393601133</updated>
       <workItem from="1489393605152" duration="7377000" />
       <workItem from="1490533917060" duration="3994000" />
-      <workItem from="1491039733293" duration="36396000" />
+      <workItem from="1491039733293" duration="37148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47767000" />
+    <option name="totallyTimeSpent" value="48519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2093" y="0" width="1267" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21231255" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21231255" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -809,14 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="118" column="7" lean-forward="false" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/todo/task.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -851,14 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/views/not_found.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/todo/command.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -879,6 +852,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/views/not_found.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
           <folding />
         </state>
       </provider>
