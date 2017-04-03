@@ -61,6 +61,12 @@ module Todo
             opt.on_tail('-h', '--help', 'Show this message'){|v| help_sub_command(opt)}
           end
 
+          sub_command_parsers['server'] = OptionParser.new do |opt|
+            opt.banner = 'Usage: server <args>'
+            opt.on('-p VAL','--port=VAL', 'Port(default:9292)') {|v| options[:port] = v}
+            opt.on_tail('-h', '--help', 'Show this message'){|v| help_sub_command(opt)}
+          end
+
           sub_command_parsers
         end
 
@@ -77,6 +83,7 @@ module Todo
                 {name: 'update id -n name -c content -s status', summary: 'タスクを削除する'},
                 {name: 'list -s status', summary: 'タスクの一覧を見る'},
                 {name: 'delete id', summary: 'タスクを削除する'},
+                {name: 'server -p port', summary: 'サーバーを起動する'},
             ]
 
             opt.banner = "Usage: #{opt.program_name} [-h|--help] [-v|--version] <command> [<args>]"

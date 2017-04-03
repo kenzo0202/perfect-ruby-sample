@@ -19,6 +19,15 @@ module Todo
 
       sub_command = options.delete(:command)
 
+      #rackupして自前のwebインターフェイスを立ち上げる
+      if sub_command == 'server'
+        puts 'サーバー起動中'
+        port_option = options[:port].nil? ? '' : "-p #{options[:port]}"
+
+        config = File.expand_path(File.join(File.dirname(__FILE__),"..","..","config.ru"))
+        exec "cd #{File.dirname(config)} && rackup -E production #{port_option} #{config}"
+      end
+
       DB.prepare
 
       tasks = case sub_command
